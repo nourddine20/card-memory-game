@@ -2,10 +2,7 @@
 let container_cards = document.querySelector(".box_card_memory");
 let box_card_memory_dom = document.querySelectorAll(".card");
 let lunch_game = document.querySelector(".lunch_game button");
-let count_time = document.querySelector(".count_time h2");
-let timer =0;
 
-console.dir();
 
 
 lunch_game.addEventListener("click",start_game);
